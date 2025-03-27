@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppLoterias</string>
+    <string name="main_description">Bem Vindo ao App da Loteria\n</string>
+    <string name="btn_enviar_1">Enviar Qtd Jogos</string>
+    <string name="btn_enviar_2">Enviar Qtd Números</string>
+    <string name="btn_enviar_3">GERAR JOGOS</string>
+
+</resources>

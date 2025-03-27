@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Author Marina Laura Villaça e Melo -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/lbl_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_description"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textSize="23sp"/>
+
+    <!-- Campo 1 -->
+    <EditText
+        android:id="@+id/txt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantos jogos você deseja?"
+        android:inputType="number"
+        android:padding="12dp"/>
+
+    <!-- Botão  1 -->
+    <Button
+        android:id="@+id/btn_enviar_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_enviar_1"
+        android:layout_marginTop="8dp"
+        android:paddingVertical="12dp"
+        android:backgroundTint="@color/button_color_padrao"
+        android:textColor="@android:color/white"
+        />
+
+    <!-- Campo 2 -->
+    <EditText
+        android:id="@+id/txt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantos números em cada jogo? [6 a 20]"
+        android:inputType="number"
+        android:padding="12dp"
+        />
+
+
+    <!-- Botão 2 -->
+    <Button
+        android:id="@+id/btn_enviar_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_enviar_2"
+        android:layout_marginTop="8dp"
+        android:paddingVertical="12dp"
+        android:backgroundTint="@color/button_color_padrao"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/btn_enviar_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_enviar_3"
+        android:layout_marginTop="8dp"
+        android:paddingVertical="12dp"
+        android:backgroundTint="@color/button_color3"
+        android:textColor="@android:color/white"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/txt_resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:background="#F0F0F0"
+            android:minHeight="200dp"/>
+    </ScrollView>
+
+</LinearLayout>
